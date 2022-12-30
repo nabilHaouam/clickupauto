@@ -1,0 +1,192 @@
+{
+      id: 'acf77017-8d6c-4bee-b381-0b969758f52d',
+      name: 'Today',
+      color: '#0af76b',
+      orderindex: 0
+    },
+    {
+      id: '0125c6d8-0e14-485e-b894-dac544fff093',
+      name: 'Up Next',
+      color: '#199171',
+      orderindex: 1
+    },
+    {
+      id: 'ec557a89-9a8e-4261-a962-bd025b76ee0b',
+      name: 'Tomorrow',
+      color: '#63857e',
+      orderindex: 2
+    },
+    {
+      id: '0a5741f5-12df-44a3-a353-226f97514d4a',
+      name: 'Overmorrow',
+      color: '#86a7a0',
+      orderindex: 3
+    },
+    {
+      id: 'e31e3430-c4ca-4627-a527-d9fcd5235595',
+      name: '3x Future',
+      color: null,
+      orderindex: 4
+    },
+    {
+      id: 'c51d9535-4001-4df5-8c41-a0462a23bfbe',
+      name: 'Done [–>Tomorrow]',
+      color: '#115a4c',
+      orderindex: 5
+    },
+    {
+      id: 'f9edad21-90e9-458a-a7da-4e619c63500f',
+      name: 'Done [–>Tmrrw]–>Auto',
+      color: null,
+      orderindex: 6
+    },
+    {
+      id: '54476ef5-9115-440c-af3b-9af6c5305fb8',
+      name: 'Maybe Today',
+      color: '#41b470',
+      orderindex: 7
+    },
+    {
+      id: '46df2a34-1bc4-4a40-8d5c-db974e3b4c18',
+      name: 'Tracking',
+      color: '#ffbe83',
+      orderindex: 8
+    },
+    {
+      id: '2d07b6f4-f62f-4f48-9810-06ae55255657',
+      name: 'Yesterday',
+      color: '#21917b',
+      orderindex: 9
+    },
+    {
+      id: '943a2f6f-d878-45d3-93c9-1ad2519aa0df',
+      name: '2 Days Ago',
+      color: null,
+      orderindex: 10
+    },
+    {
+      id: 'f9857770-380c-4f38-ab5e-fd3fdc3a95e0',
+      name: '3 Days Ago',
+      color: '#226457',
+      orderindex: 11
+    },
+    {
+      id: '6e4fc99d-a022-4af4-b5d7-b18a88683765',
+      name: '4 Days Ago',
+      color: null,
+      orderindex: 12
+    },
+    {
+      id: '1008d92d-a038-43f4-bcd3-0caccfc3dfe9',
+      name: '5 Days Ago',
+      color: null,
+      orderindex: 13
+    },
+    {
+      id: '7e832753-2286-4a48-b747-be8881399857',
+      name: '6 Days Ago',
+      color: null,
+      orderindex: 14
+    },
+    {
+      id: '4957e7c9-f6e5-4323-9b97-44497c51dfc0',
+      name: '7 Days Ago',
+      color: null,
+      orderindex: 15
+    },
+    {
+      id: '609482e1-b723-4d3d-ae11-70dc91bc7c54',
+      name: 'Lapsed',
+      color: null,
+      orderindex: 16
+    },
+    {
+      id: '988d149b-2bba-416d-947a-acae743bc72c',
+      name: 'Lapsed–>Auto',
+      color: null,
+      orderindex: 17
+    },
+    {
+      id: 'd2075df8-9d51-4513-9e70-66dad9c28d42',
+      name: 'Today–>Auto',
+      color: null,
+      orderindex: 18
+    },
+    {
+      id: '83a42801-1b56-443d-8359-d65c8f65bcd2',
+      name: '3x Future–>Auto',
+      color: null,
+      orderindex: 19
+    },
+    {
+      id: '977eb1ef-6bc7-4af9-bda2-499ca553b006',
+      name: 'Overmorrow–>Auto',
+      color: null,
+      orderindex: 20
+    },
+    {
+      id: 'c1f42f78-c9eb-4c12-a465-8d1026a03cec',
+      name: 'Yesterday–>Auto',
+      color: null,
+      orderindex: 21
+    },
+    {
+      id: '9ee7e1f0-f455-453d-9791-a378006d84fa',
+      name: '2 Days Ago-->Auto',
+      color: null,
+      orderindex: 22
+    },
+    {
+      id: '60b80fa3-3d8f-4dca-9ef9-b9dd26dc4654',
+      name: 'Tomrrow–>Auto',
+      color: null,
+      orderindex: 23
+    },
+    {
+      id: '9017afe9-8b83-4c3b-b645-6d3feaa8f931',
+      name: '3 Days Ago–>Auto',
+      color: null,
+      orderindex: 24
+    },
+    {
+      id: '99079c00-bde8-425d-84b1-13392168deb9',
+      name: '4 Days Ago–>Auto',
+      color: null,
+      orderindex: 25
+    },
+    {
+      id: '6e0cddd6-2582-439d-ab20-314aa82e4fb1',
+      name: '5 Days Ago–>Auto',
+      color: null,
+      orderindex: 26
+    },
+    {
+      id: '63786210-1290-4023-99b9-0db282f92f10',
+      name: '6 Days Ago–>Auto',
+      color: null,
+      orderindex: 27
+    },
+    {
+      id: 'f88a14b8-56c3-4220-89b7-8c19a75dea67',
+      name: '7 Days Ago–>Auto',
+      color: null,
+      orderindex: 28
+    },
+    {
+      id: '6db25ffa-8150-47c2-969e-897f492556f7',
+      name: 'Up Next [x2]',
+      color: null,
+      orderindex: 29
+    },
+    {
+      id: '3870b4e3-73f3-4e3b-b3cd-a93b35b79396',
+      name: 'Up Next [x3]',
+      color: null,
+      orderindex: 30
+    },
+    {
+      id: 'e7ce8e8e-e6cb-4df7-bc02-eb3b05b31b21',
+      name: 'Up Next [x4+]',
+      color: null,
+      orderindex: 31
+    }
