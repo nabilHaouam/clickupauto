@@ -58,10 +58,9 @@ async function toDoAutomation (){
                 }
             }
             
-            else if (task[1].dueDate) { //if the task[1] has a due date 
+            if (task[1].dueDate) { //if the task[1] has a due date 
 
-                const dueDate = new Date(task[1].dueDate);
-                const diffTime = today - dueDate;
+                const diffTime = today - Number(task[1].dueDate);
                 const diffDays = Math.round(diffTime / (1000 * 60 * 60 * 24)); 
                 
                 if (diffDays== -3){
@@ -109,17 +108,18 @@ async function toDoAutomation (){
                 setCustomFieldValue(task[1].id, task[1].fieldId, 18)
             }
             //handling the UP NEXT situations :
-            const diffTodayAndUpNextDate = today - task[1].upNextDate
+            const diffTodayAndUpNextDateInDays = (today - task[1].upNextDate)/(1000 * 60 * 60 * 24)
+            const diffTodayAndUpNextDate = Math.round(diffTodayAndUpNextDateInDays)
             if (task[1].value == 1 && !task[1].upNextDate ){
                 setCustomFieldValue(task[1].id, task[1].upNextFieldId, today.toString())
             }
-            else if (diffTodayAndUpNextDate == 7){
+            if (diffTodayAndUpNextDate == 7){
                 setCustomFieldValue(task[1].id, task[1].upNextFieldId, 29)
             }
-            else if (diffTodayAndUpNextDate == 14){
+            if (diffTodayAndUpNextDate == 14){
                 setCustomFieldValue(task[1].id, task[1].upNextFieldId, 30)
             }
-            else if (diffTodayAndUpNextDate == 21){
+            if (diffTodayAndUpNextDate == 21){
                 setCustomFieldValue(task[1].id, task[1].upNextFieldId, 31)
             }
         })
