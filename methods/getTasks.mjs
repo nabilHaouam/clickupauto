@@ -2,28 +2,28 @@ import fetch from 'node-fetch';
 //this script gets the id's of the all the tasks and cutom field ToDo! of a given list
 
 export async function getTasks(list_id) {
-  const query = new URLSearchParams({
-    archived: 'false',
-    page: '0',
-    order_by: 'string',
-    reverse: 'true',
-    subtasks: 'true',
-    statuses: [],
-    include_closed: 'true',
-    assignees: 'string',
-    tags: 'string',
-    due_date_gt: '0',
-    due_date_lt: '0',
-    date_created_gt: '0',
-    date_created_lt: '0',
-    date_updated_gt: '0',
-    date_updated_lt: '0',
-    custom_fields: 'string'
-  }).toString();
+  // const query = new URLSearchParams({
+  //   archived: 'false',
+  //   page: '0',
+  //   order_by: 'string',
+  //   reverse: 'true',
+  //   subtasks: 'true',
+  //   statuses: [],
+  //   include_closed: 'true',
+  //   assignees: 'string',
+  //   tags: 'string',
+  //   due_date_gt: '0',
+  //   due_date_lt: '0',
+  //   date_created_gt: '0',
+  //   date_created_lt: '0',
+  //   date_updated_gt: '0',
+  //   date_updated_lt: '0',
+  //   custom_fields: 'string'
+  // }).toString();
 
   const listId = list_id;
   const resp = await fetch(
-    `https://api.clickup.com/api/v2/list/${listId}/task?`,
+    `https://api.clickup.com/api/v2/list/${listId}/task?subtasks=true`,
     {
       method: 'GET',
       headers: {
